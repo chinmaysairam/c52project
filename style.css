@@ -1,0 +1,26 @@
+*{
+    border:solid
+}
+h1{
+    color:#9da
+}
+h2,p{
+    color:rgb(250, 78, 150)
+}
+.mydetails{
+    display:flex;
+    background-color:orange;
+    justify-content:space-evenly ;
+}
+.imggrid{
+    display:flex;
+    justify-content: space-between;
+}
+a:link{color:rgb(10, 14, 12)}
+a:visited{color:rgba(237, 18, 18, 0.748)}
+.menu{margin-left: 100px;}
+.menu a{margin-left: 30px;}
+.grid{position:relative}
+.grid p{position:absolute;top:50%;left:50%;transform: translate(-50%,-50%);opacity:0}
+.grid:hover p{opacity: 1;}
+.grid:hover img{opacity:0.33}
